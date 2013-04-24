@@ -1,0 +1,25 @@
+To run the code, Numpy, Scipy and Matplotlib is required.
+run "run_lagrange.py" to start the calculator. I suggest using ipython since it's 
+more comfortable to type in stuff in ipython 
+
+When typing in the Target and Input functions, use x[0], x[1], x[2]... as 
+variable names, because the functions defined in the program take arrays as 
+inputs. 
+
+For the constraint function, what you type in will be set to zero as the constraint
+For instance, if the constriant is 
+3x + 6y = 9
+Type in
+> 3*x[0] + 6*x[1] - 9
+
+Also, please use python recognizable math functions
+For instance, if the function is
+f(x, y) = ln(x) + 5y
+Type in 
+>log(x[0]) + 5*x[1]
+
+f(x,y) = x^2 * y^0.5
+Type in
+>x[0]**2 * x[1]**0.5
+
+Besides, test.py is a quick test script, you can run it to test the correctness of calculator.
